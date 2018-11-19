@@ -25,7 +25,7 @@
     <br/>About Page - Breif overview of mission statement, company mantra, etc. </p>
 
 <h1>Tech List</h1>
-<p>SCSS, HTML, CSS, JS </p>
+<p>HTML, CSS, JS </p>
 
 </body>
 </html>
