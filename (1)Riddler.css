@@ -94,18 +94,6 @@ hr {
     }
 }
 
-
-/*.item1 {*/
-    /*border: 1px solid red;*/
-    /*grid-area: title;*/
-    /*color: white;*/
-    /*text-align: center;*/
-    /*!*padding: 15px;*!*/
-    /*font-size: 30px;*/
-    /*font-weight: bold;*/
-    /*font-style: italic;*/
-/*}*/
-
 .title {
     text-align: center;
     /*grid-template-areas:'txt txt txt pic pic pic'*/

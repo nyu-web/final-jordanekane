@@ -1,5 +1,5 @@
 body {
-    font-family: "MADE Canvas";
+    font-family: "Century Gothic";
     background-color: dimgray;
 }
 
@@ -93,3 +93,24 @@ hr {
         font-size: 18px;
     }
 }
+
+
+.temp img {
+    display: block;
+    height: auto;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+
+}
+
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .temp img {
+        height: auto;
+        max-width: 80%;
+        padding-top: 100px;
+    }
