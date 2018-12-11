@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="(2)Friendsgiving.css">
+
+    <title>Kitchen + Drink</title>
+</head>
+
+<body>
+<div id="mySidenav" class="sidenav">
+    <section>
+        <img src="../img/KD.png">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <br>
+    </section>
+
+    <a href="../San%20Francisco.html">San Francisco</a>
+    <hr>
+    <a href="../New%20York%20City.html">New York City</a>
+    <hr>
+    <a href="#">About</a>
+    <hr>
+</div>
+
+<header>
+    <span onclick="openNav()">&#9776;</span>
+    <a href="../index.html"><img src="../img/KitchenDrinkLogo.png"></a>
+</header>
+<hr>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>

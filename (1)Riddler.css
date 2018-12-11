@@ -1,0 +1,165 @@
+body {
+    font-family: "Century Gothic";
+    background-color: dimgray;
+}
+
+header {
+    display: grid;
+    justify-items: left;
+    align-items: baseline;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header span {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    align-self: baseline;
+}
+
+header img {
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*justify-items: center;*/
+    width: 500px;
+    height: auto;
+}
+
+.sidenav section {
+    /*border: 1px solid red;*/
+    display: grid;
+    justify-items: left;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 75%;
+}
+
+.sidenav img {
+    width: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+.sidenav .closebtn {
+    /*position: absolute;*/
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/*.item1 {*/
+    /*border: 1px solid red;*/
+    /*grid-area: title;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*!*padding: 15px;*!*/
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+/*}*/
+
+.title {
+    text-align: center;
+    /*grid-template-areas:'txt txt txt pic pic pic'*/
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title hr {
+    width: 50%;
+}
+
+.item2 {
+    /*border: 1px solid red;*/
+    grid-area: txt;
+    color: white;
+    text-align: left;
+}
+
+.item3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item3 {
+    /*border: 1px solid red;*/
+    grid-area: pic;
+}
+
+.content {
+    /*border: 1px solid red;*/
+    display: grid;
+    alignment: right;
+    grid-template-areas:'pic txt';
+    padding: 15px;
+    justify-items: end;
+    grid-column-gap: 30px;
+}
+
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .content {
+        display: grid;
+        grid-template-areas: 'txt' 'pic';
+        justify-items: center;
+    }
+    .item2 {
+        grid-area: txt;
+        color: white;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+}
