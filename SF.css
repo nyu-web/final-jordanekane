@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
 body {
     font-family: 'Didact Gothic', sans-serif;
     background-color: dimgray;
@@ -160,7 +162,6 @@ and (min-device-width: 200px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .grid-container {
-        /*border: 1px solid greenyellow;*/
         display: grid;
         grid-template-areas: "a" "b" "c" "d" "e" "f";
         grid-template-rows: minmax(100px, auto);
@@ -214,84 +215,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .a, .d, .e {
         object-fit: cover;
     }
-
-    /*.b, .c, .f {*/
-        /*color: white;*/
-        /*font-size: 30px;*/
-        /*padding-bottom: 10px;*/
-        /*padding-top: 10px;*/
-    /*}*/
-/*}*/
-/*@media only screen*/
-/*and (min-device-width: 200px)*/
-/*and (max-device-width: 667px)*/
-/*and (-webkit-min-device-pixel-ratio: 2) {*/
-    /*.grid-container {*/
-        /*border: 1px solid greenyellow;*/
-        /*display: grid;*/
-        /*grid-template-areas: ". b ." ". a ." ". a ." ". c ." ". d ." ". d ." ". f ." ". e ." ". e .";*/
-        /*grid-template-columns: 10px auto 10px;*/
-        /*grid-template-rows: 30% 350%;*/
-    /*}*/
-
-    /*.grid-container hr {*/
-        /*width: 25%;*/
-    /*}*/
-
-    /*.a {*/
-        /*grid-area: a;*/
-        /*background-image: url(./img/Riddler.jpg);*/
-        /*!*max-height: 100%;*!*/
-        /*!*width: auto;*!*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center;*/
-        /*object-fit: cover;*/
-    /*}*/
-
-    /*.b {*/
-        /*grid-area: b;*/
-    /*}*/
-
-    /*.c {*/
-        /*grid-area: c;*/
-    /*}*/
-
-    /*.d {*/
-        /*grid-area: d;*/
-        /*background-image: url(./img/Sangria.jpg);*/
-        /*!*max-height: 100%;*!*/
-        /*!*width: auto;*!*/
-        /*!*background-repeat: no-repeat;*!*/
-        /*!*background-position: center;*!*/
-        /*!*object-fit: cover;*!*/
-    /*}*/
-
-    /*.e {*/
-        /*grid-area: e;*/
-        /*background-image: url(./img/Trickdog.jpg);*/
-        /*!*max-height: 100%;*!*/
-        /*!*width: auto;*!*/
-        /*!*background-repeat: no-repeat;*!*/
-        /*!*background-position: center;*!*/
-        /*!*object-fit: cover;*!*/
-    /*}*/
-
-    /*.f {*/
-        /*grid-area: f;*/
-    /*}*/
-
-    /*.a, .d, .e {*/
-        /*max-height: 100%;*/
-        /*width: auto;*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center;*/
-        /*object-fit: cover;*/
-    /*}*/
-
-    /*.b, .c, .f {*/
-        /*color: white;*/
-        /*font-size: 30px;*/
-        /*padding-bottom: 10px;*/
-        /*padding-top: 10px;*/
-    /*}*/
-/*}*/
